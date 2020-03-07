@@ -40,7 +40,7 @@ end
 def play(board)
   game_turn = 0
   while game_turn <=8
-    turn
+    turn(board)
     game_turn += 1
 
   end
